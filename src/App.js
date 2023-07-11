@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "react-redux";
-import ChangeUser from "./components/ChangeUser";
+import LogIn from "./components/LogIn";
 import Home from "./pages/Home";
 import { store } from "./pages/store";
 
@@ -11,7 +11,7 @@ function App() {
         <Router>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/changeuser" element={<ChangeUser />} />
+            <Route path="/login" element={<LogIn />} />
           </Routes>
         </Router>
       </Provider>

@@ -1,12 +1,13 @@
 import React from "react";
-import User from "../components/User";
+
+import LogIn from "../components/LogIn";
 
 const Home = () => {
   return (
     <div>
       <h2>Redux and Redux Toolkit</h2>
 
-      <User />
+      <LogIn />
     </div>
   );
 };
